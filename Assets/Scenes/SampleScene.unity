@@ -237,10 +237,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 264243220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f303a552f69f7984cb06fc22a97eb6a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fddbb3a40eaa754d9d5f523288b3e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.02
+  Speed: 10
 --- !u!1 &593574854
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65359b0e081a80f449da65265d0e5f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.002
+  Speed: 0.2
 --- !u!114 &593574860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067d2870d95d29a4ea17670408f71e54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: {x: 0, y: 2, z: 0}
+  Direction: {x: 0, y: 300, z: 0}
 --- !u!114 &593574861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,10 +384,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 593574854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f303a552f69f7984cb06fc22a97eb6a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fddbb3a40eaa754d9d5f523288b3e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.1
+  Speed: 10
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067d2870d95d29a4ea17670408f71e54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: {x: 0, y: 2, z: 0}
+  Direction: {x: 0, y: 300, z: 0}
 --- !u!65 &1825693150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65359b0e081a80f449da65265d0e5f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.002
+  Speed: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
