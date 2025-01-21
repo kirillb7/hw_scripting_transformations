@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scaler : MonoBehaviour
 {
-    [SerializeField] public float Speed;
+    [SerializeField] private float Speed;
 
     private void Update()
     {
