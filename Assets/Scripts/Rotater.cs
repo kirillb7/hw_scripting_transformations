@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Rotater : MonoBehaviour
 {
-    [SerializeField] private Vector3 Direction;
-    [SerializeField] private float Speed;
+    [SerializeField] private Vector3 _direction;
+    [SerializeField] private float _speed;
 
     private void Update()
     {
-        transform.Rotate(Direction * Speed * Time.deltaTime);
+        transform.Rotate(_direction * _speed * Time.deltaTime);
     }
 }
